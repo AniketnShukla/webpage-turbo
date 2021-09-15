@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    <script src="index.js"></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="custom.css">
+<style>
+        .primary{
+            background-color: #0c0032;
+            color: #F64C72;
+        }
+ 
+           
+        
+
+        .carousel-inner > .item > img {
+            width: 80%;
+            margin: auto;
+        }
+
+
+        
+
+</style> 
+
+
+    <title>Webpage</title>
+</head>
+
+
+<body style= "background-color:#1c223100">
+    <nav class = "navbar primary">
+        <div class = "container-fluid">
+            <div class="navbar-header secondary">
+                <button type="button"  class="navbar-toggle  btn btn-info " data-toggle="collapse" data-target="#nav1"  style="color:#F64C72;">
+                    <span class="icon-bar" style = "color:azure" ></span>
+                    <span class="icon-bar" style = "color:azure"></span>
+                    <span class="icon-bar" style = "color:azure"></span>
+                </button>
+                <a class="navbar-brand  navbar-toggle pull-left" data-toggle="collapse" data-target="#nav1" style="color:#F64C72" href="#">Menu</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="nav1">
+                <ul class = "nav navbar-nav">
+                    <li ><a data-toggle="tab" href="#home" >Home</a></li>
+                    <li><a data-toggle="tab" href="#gen">Genres</a></li>
+                    
+                    
+                    <li ><a data-toggle="tab" href="#reg" target="_blank" >Login</a></li>
+                    <li><a data-toggle="tab" href="#dis" target="_blank">Discussions</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        
+       
+        <div class="container-fluid " style="color: #66fcf1">
+            <div class="jumbotron " style="background-color: rgba(0, 0, 0, 0.384)"; align="center">
+            
+                Turbo.
+        
+            </div>    
+        </div>
+
+    </header>
+
+
+
+<div class="tab-content">
+        
+    <div class="tab-pane in fade " id="home">
+            <div class="tabhead">
+            <h1>Automobiles</h1>
+            </div>
+            <blockquote>
+                A car (or automobile) is a wheeled motor vehicle used for transportation. Most definitions of cars say that they run primarily on roads, seat one-to-eight people, have four wheels and mainly transport people rather than goods.[2][3]
+                Cars came into global use during the 20th century, and developed economies depend on them. The year 1886 is regarded as the birth year of the car when German inventor Karl Benz patented his Benz Patent-Motorwagen.[1][4][5] Cars became widely available in the early 20th century. One of the first cars accessible to the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company. Cars were rapidly adopted in the US, where they replaced animal-drawn carriages and carts.[6] In Europe and other parts of the world, demand for automobiles did not increase until after World War II.[6]
+                Cars have controls for driving, parking, passenger comfort, and a variety of lights. Over the decades, additional features and controls have been added to vehicles, making them progressively more complex, but also more reliable and easier to operate.[citation needed] These include rear-reversing cameras, air conditioning, navigation systems, and in-car entertainment. Most cars in use in the early 2020s are propelled by an internal combustion engine, fueled by the combustion of fossil fuels. Electric cars, which were invented early in the history of the car, became commercially available in the 2000s and are predicted to cost less to buy than gasoline cars before 2025.[7][8] The transition from fossil fuels to electric cars features prominently in most climate change mitigation scenarios,[9] such as Project Drawdown's 100 actionable solutions for climate change.[10]
+                There are costs and benefits to car use. The costs to the individual include acquiring the vehicle, interest payments (if the car is financed), repairs and maintenance, fuel, depreciation, driving time, parking fees, taxes, and insurance.[11] The costs to society include maintaining roads, land use, road congestion, air pollution, public health, healthcare, and disposing of the vehicle at the end of its life. Traffic collisions are the largest cause of injury-related deaths worldwide.[12]
+            </blockquote>
+            <div class="container-fluid" id='auto'>
+            <img src='bgimg/automobile.jfif' class="responsive">
+            </div>                
+    </div>
+
+
+    <div class="tab-pane in fade " id="gen">
+            
+                                <h4>Genre </h4>
+                                    <ul class="nav nav-tabs">
+                                        <li><a class="btn btn-lg" data-toggle="tab" href="#tab1">Muscle</a></li>
+                                        <li><a class="btn btn-lg" data-toggle="tab" href="#tab2">Supercars</a></li>
+                                        <li><a class="btn btn-lg" data-toggle="tab" href="#tab3">JDMs</a></li>
+                                    </ul>
+                                    
+    </div>
+    
+
+        
+    <div class="tab-pane in fade " id="reg">
+            
+            <h4>Credentials</h4>
+	
+                <form role="form">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Emter email">
+                        </div>
+                        
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="email" class="form-control" id="pwd" placeholder="Enter Password">
+                        </div>
+                        
+                    <div class="checkbox">
+                    <label><input type="checkbox"> REmember me</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+                               
+    </div>
+    
+
+    
+
+    <div class="tab-pane in fade " id="dis">
+            
+        <h4>Discussions</h4>
+	
+        <form role="form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Emter email">
+                </div>
+                
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="email"  class="form-control" id="pwd" placeholder="Emter Password">
+                </div>
+                
+            <div class="form-group">
+                <label for="pwd">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment" placeholder="Add Comment"></textarea>
+                <button type="button" class="btn btn-primary  pull-right" style="color:black">Send</button>    
+            </div>
+                
+            <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+            </div>
+            
+            
+           
+        </form>                
+
+    </div>
+</div>
+
+
+    
+
+<div class="tab-content">
+        <div id="tab1" class="tab-pane fade in ">    
+            
+            <div class="tabhead" >
+            <h2 >Muscle Cars </h2>
+            </div>
+                    <blockquote  class="wow fadInUp">
+                        <p class >Muscle car is a description used for a high-performance American car, by some definitions an intermediate sized car fitted with a large displacement V8 engine. Historically they were all rear-wheel drive, but that changed with technological advances.
+                            Although the term was unknown for another fifteen-plus years, General Motors is credited by some as introducing the first "intentional" muscle car in 1949, when it put its 303-cubic-inch (5 l) Rocket V8 from its full-sized luxury car 98 model into the considerably smaller and lighter Oldsmobile 88.[1] By some accounts, the "muscle car" term proper was originally applied to mid-1960s and early 1970s special editions of mass-production cars which were designed for drag racing,[2] though it shortly entered the general vocabulary through car magazines and automobile marketing and became used generically for "performance"-oriented street cars.
+                            By some period definitions and perceptions, the term muscle car came to connote high performance at budget prices, where extremely powerful engines were put into relatively bare-bones intermediate cars at extremely affordable prices. This wave, exemplified by the 1968 Plymouth Road Runner and companion Dodge Super Bee, were meant to undercut more expensive, more stylish, and better-appointed cars by General Motors and Ford that had come to define the market, such as the Pontiac GTO (1964), 396 Chevrolet Chevelle (1965), 400 Buick Gran Sport (1965), 400 Oldsmobile 442 (1965), as well as 427 Mercury Comet Cyclone (1964) and 390 Mercury Cyclone (1966).
+                            By some definitions - including those used by Car and Driver and Road and Track magazines cited below, pony cars such as the Ford Mustang and Chevrolet Camaro and their companions in that large, influential, and lucrative 1960s-70s niche, could also qualify as "muscle cars" if outfitted with suitable high-performance equipment.
+                        </p>
+                    </blockquote>
+
+                <div class="container">
+                    <br>
+                    <div id="carousel1" class="carousel slide" data-ride="carousel">
+                      
+    
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1" ></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                      </ol>
+                  
+
+                        <div class="carousel-inner" role="listbox">
+                    
+                            <div class="item active">
+                            <img src="Muscle/car1.jfif" width="300" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 1</h3>
+                                <p>Description 1</p>
+                            </div>
+                            </div>
+                    
+                            <div class="item">
+                            <img src="Muscle/car2.jfif" width="450" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 2</h3>
+                                <p>Description 2</p>
+                            </div>
+                            </div>
+                        
+                            <div class="item">
+                            <img src="Muscle/car3.jfif" width="450" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 3</h3>
+                                <p>Description 3</p>
+                            </div>
+                            </div>
+                    
+                            <div class="item">
+                            <img src="Muscle/car4.jfif" width="450" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 4</h3>
+                                <p>Description 4</p>
+                            </div>
+                            </div>
+                
+                        </div>
+                        <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          </a>
+                    </div>
+                </div>
+                  
+            
+        </div>
+        
+        <div id="tab2" class="tab-pane fade ">
+            <div class="container-fluid tabs">
+             
+                    <div class="tabhead">
+                        <h2 >Supercars</h2>
+                    </div>
+                    <blockquote>
+                    <p class >A supercar – also called exotic car – is a loosely defined description of street-legal, high-performance luxury sports car. Since the 2000s or 2010s, the term hypercar has come into use for the highest performing supercars. Supercars commonly serve as the flagship model within a vehicle manufacturer's lineup of sports cars.
+
+                        In the United States, muscle cars were often referred to as "supercars" during the 1960s.
+                        History
+                        Europe
+                        The Lamborghini Miura, produced from 1966–1973, is often said to be the first supercar.[1][2][3][4] By the 1970s and 1980s the term was in regular use, if not precisely defined.[5][6] One interpretation up until the 1990s was to use it for mid-engine two-seat cars with at least eight cylinders (but typically a V12 engine), a power output of at least 400 bhp (298 kW) and a top speed of at least 180 mph (290 km/h).[7] Other interpretations state that "it must be very fast, with sporting handling to match", "it should be sleek and eye-catching" and its price should be "one in a rarefied atmosphere of its own"[8] or regard exclusivity (i.e. limited production volumes) as an important characteristic.[4]
+                        
+                        It is also claimed that the definition of a supercar has always been subjective and a matter of blind prejudice.[7]
+                        
+                        United States
+                        See also: Muscle car § Supercars
+                        During the 1960s, cars that are now considered to be muscle cars were then referred to as supercars.[9][10]:8 The term was sometimes spelled with a capital S.[11] In 1966 the sixties supercar became an official industry trend.[9]:8 For example, the May 1965 issue of the American magazine Car Life includes multiple references to supercars and "the supercar club"[12] and a 1968 issue of Car & Driver magazine refers to "the Supercar street racer gang" market segment.[13] In the model name of the AMC S/C Rambler, the "S/C" is an abbreviation for "SuperCar".[14]
+                        
+                        Since the decline of the muscle car in the 1970s, the word supercar came to mean a car that has high performance (such as those made by Ferrari or Lamborghini)[9]:5 interpretations of the term are for limited-production models produced by small manufacturers for enthusiasts, and, less so, standard-looking cars modified for increased performance.[15]
+                    </p>
+                    </blockquote>
+                    <div class="container">
+                        <br>
+                        <div id="carousel2" class="carousel slide" data-ride="carousel">
+                          
+        
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1" ></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                          </ol>
+                      
+    
+                            <div class="carousel-inner" role="listbox">
+                        
+                                <div class="item active">
+                                <img src="super/car1.jfif" width="300" height="340">
+                                <div class="carousel-caption">
+                                    <h3>Lamborghini </h3>
+                                    <p>Huracan</p>
+                                </div>
+                                </div>
+                        
+                                <div class="item">
+                                <img src="super/car2.jfif" width="450" height="340">
+                                <div class="carousel-caption">
+                                    <h3>Mclaren</h3>
+                                    <p>720S </p>
+                                </div>
+                                </div>
+                            
+                                <div class="item">
+                                <img src="super/car3.jfif" width="450" height="340">
+                                <div class="carousel-caption">
+                                    <h3>Audi</h3>
+                                    <p>R8 V10</p>
+                                </div>
+                                </div>
+                        
+                                
+                    
+                            </div>
+                            <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel2" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                              </a>
+                        </div>
+                    </div>
+            </div> 
+        </div>   
+            
+        
+        
+        <div id="tab3" class="tab-pane fade ">
+            <div class="container-fluid tabs">
+             
+                <div class="tabhead">
+                    <h2 >Japanese domestic market</h2>
+                </div>
+                <blockquote>
+                <p class >Japanese domestic market refers to Japan's home market for vehicles. For the importer, these terms refer to vehicles and parts designed to conform to Japanese regulations and to suit Japanese buyers. The term is abbreviated JDM.
+
+                    Compared to the United States where vehicle owners are now owning vehicles for a longer period of time, with the average age of the American vehicle fleet at 10.8 years,[1] Japanese owners contend with a strict motor vehicle inspection and gray markets. According to the Fédération Internationale de l'Automobile, a car in Japan travels a yearly average of over only 9,300 kilometers (5,800 miles), less than half the U.S. average of 19,200 kilometers (12,000 miles).[2]
+                    
+                    Japanese domestic market vehicles may differ greatly from the cars that Japanese manufacturers build for export and vehicles derived from the same platforms built in other countries. The Japanese car owner looks more toward innovation than long-term ownership which forces Japanese carmakers to refine new technologies and designs first in domestic vehicles. For instance, the 2003 Honda Inspire featured the first application of Honda's Variable Cylinder Management. However, the 2003 Honda Accord V6, which was the same basic vehicle, primarily intended for the North American market, did not feature VCM, which had a poor reputation after Cadillac's attempt in the 1980s with the V8-6-4 engine. VCM was successfully introduced to the Accord V6 in its redesign for 2008.
+                    
+                    In 1988, JDM cars were limited by voluntary self-restraints among manufacturers to 280 horsepower (PS) (276 hp) and a top speed of 180 km/h (111.8 mph), limits imposed by the Japan Automobile Manufacturers Association (JAMA) for safety. The horsepower limit was lifted in 2004 but the speed limit of 180 km/h (111.8 mph) remains in effect. Most JDM cars have speedometers that register up to 180 km/h (111.8 mph).</p>
+                </blockquote>
+                <div class="container">
+                    <br>
+                    <div id="carousel3" class="carousel slide" data-ride="carousel">
+                      
+    
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1" ></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                      </ol>
+                  
+
+                        <div class="carousel-inner" role="listbox">
+                    
+                            <div class="item active">
+                            <img src="jdm/car1.jfif" width="300" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 1</h3>
+                                <p>Description 1</p>
+                            </div>
+                            </div>
+                    
+                            <div class="item">
+                            <img src="jdm/car2.jfif" width="450" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 2</h3>
+                                <p>Description 2</p>
+                            </div>
+                            </div>
+                        
+                            <div class="item">
+                            <img src="jdm/car3.jfif" width="450" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 3</h3>
+                                <p>Description 3</p>
+                            </div>
+                            </div>
+                    
+                            <div class="item">
+                            <img src="jdm/car4.jfif" width="450" height="340">
+                            <div class="carousel-caption">
+                                <h3>Car 4</h3>
+                                <p>Description 4</p>
+                            </div>
+                            </div>
+                
+                        </div>
+                        <a class="left carousel-control" href="#carousel3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          </a>
+                    </div>
+                </div>
+
+            </div> 
+        </div>   
+</div>
+    
+
+
+</body>
+
+</html>
